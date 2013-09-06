@@ -1,0 +1,38 @@
+{
+  "name": "josi-routes",
+  "description": "This is where all of your robot's http activity is managed. Your team can endlessly-extend http connectors to your Hubot's available processes and commands in these simple packages.",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-routes.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-routes/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
