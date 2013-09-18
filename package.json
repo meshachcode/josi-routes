@@ -1,0 +1,38 @@
+{
+  "name": "josi-routes",
+  "description": "This is where all of your robot's http activity is managed. Your team can endlessly-extend http connectors to your Hubot's available processes and commands in these simple packages.",
+  "version": "0.0.3",
+  "author": {
+    "name": "Jolly Science"
+  },
+  "license": "MIT",
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jollyscience/josi-routes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jollyscience/josi-routes/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6",
+    "querystring": "0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "script/test"
+  },
+  "readme": "### josi-routes\n\n[coming soon]\n\n\tnpm install josi-routes\n\nThis is where all of your robot's http activity is managed. Your team can endlessly-extend http connectors to your JoSi's available processes and commands in these simple packages.\n\n\t- josi-routes/\n\t\t- scripts/\n\t\t\t- httpd.coffee\n\t\t\t- in.coffee\n\t\t\t- out.coffee\n\t\t- routes.coffee\n\t\t- package.json",
+  "readmeFilename": "README.md",
+  "_id": "josi-routes@0.0.3",
+  "_from": "josi-routes@0.0.3"
+}
